@@ -544,6 +544,15 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.bg-redrock-red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(188 26 69 / var(--tw-bg-opacity));
+}
+
+.font-gemunu {
+  font-family: Gemunu Libre, sans-serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -553,6 +562,7 @@ video {
   font-weight: 700;
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-redrock-red {
+  --tw-text-opacity: 1;
+  color: rgb(188 26 69 / var(--tw-text-opacity));
 }

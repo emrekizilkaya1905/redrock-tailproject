@@ -2,7 +2,19 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        gemunu: ["Gemunu Libre", "sans-serif"],
+        open: ["Open Sans", "sans-serif"],
+      },
+
+      colors: {
+        "redrock-red": "#BC1A45",
+        "redrock-melon": "#FFD369",
+        "redrock-grey": "#DDDDDD",
+        "redrock-white": "#F7F7F7",
+      },
+    },
   },
   plugins: [],
 };
